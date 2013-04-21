@@ -1,0 +1,675 @@
+.clearfix {
+    clear:both;
+}
+ul,
+ul li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  color:white;
+}
+body {
+  font-family: 'Droid Sans', sans-serif;
+  font-size:15px;
+  background-image:url('images/background2.jpg');
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  color:#3a3a3a;
+  background-size:cover;
+}
+
+#titre {
+position:absolute;
+ top:40px;
+ left:200px;
+}
+
+div>ul>li>a {
+top:10px;
+}
+
+#header {
+  position:relative;
+}
+#header>a>img {
+  margin-left:5%;
+  float:left;
+  margin-top:30px;
+}
+#header>ul>li{
+  float:right;
+  margin-top:-20px;
+  /*To do*/
+}
+#header>ul>li>a {
+  text-decoration:none;
+  /*to do change color gray*/
+}
+#pub{
+  width:180px;
+  height:300px;
+  position:absolute;
+  top:690px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+
+
+#follow_us h3,
+h1, h2,
+#header>ul>li>a{
+  color:white;
+}
+
+#corps {
+  width:980px;
+  height:1000px;
+  margin:0 auto;
+  position:relative;
+}
+h1 {
+  font-weight: bold;
+  padding-top:40px;
+}
+h1, h2 {
+  margin-left:220px;
+}
+#photo_accueil {
+  width:980px;
+  height:150px;
+  margin:0 auto;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+#menu {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  height:300px;
+  width:150px;
+  position:absolute;
+  top: 300px;
+  left:10px;
+  padding:10px;
+}
+#menu ul {
+  padding:0;
+  margin:0;
+  list-style-type:none;
+  line-height:40px; 
+}
+#menu ul li a img {
+  width:100px;
+  height:30px;
+  border:none;
+  padding:5px;
+}
+#menu .btn_menu {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border-radius: 10px;
+}
+#blocs {
+  position:absolute;
+  top:300px;
+  right:10px;
+  margin-left: auto ;
+  margin-right: auto ;
+  width:780px;
+  height:690px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+#agence {
+  position:absolute;
+  background-color:white;
+  padding:0 10px;
+  margin-top:0;
+  width:97%;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+#agence>p:first-letter,
+#tendances>p:first-letter {
+font-size:200%;
+}
+#selections_semaine {
+  position:absolute;
+  padding:0 10px;
+  background-color:white;
+  width:97%;
+  top:220px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+#selections_semaine>img {
+  width:180px;
+  height:120px;
+  float:left;
+  margin-left:10px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+#selections_semaine>p {
+  width:180px;
+  float:left;
+  margin-top:0;
+  margin-left:8px;
+}
+#selections_semaine>h3>a{
+  color:#3A3A3A;
+  text-decoration:none;
+}
+#tendances {
+  position:absolute;
+  padding:0 10px;
+  margin-top:0;
+  top:441px;
+  background-color:white;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+#rappel_menu {
+  position:absolute;
+  background-color:white;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  width:100%;
+  height:60px;
+  bottom:0;
+}
+#rappel_menu>ul {
+  text-align:center;
+  list-style-type:none;
+  /*to do centrer le texte*/
+}
+#rappel_menu>ul>li>a:first-child {
+  margin-left:18px
+}
+#rappel_menu>ul>li>a {
+  margin:30px 30px 0 10px;
+  float:left;
+  color:black;
+}
+#follow_us>a>img {
+  width:40px;
+}
+#logo_facebook {
+  margin-left:0px
+}
+/*---------sample-----------*/
+#body_sample {
+  background-color:cyan;
+  height:550px;
+  width:100%;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+/*-----maisons.html--------*/
+#maisons {
+  position:relative;
+  margin-top:0;
+  padding:0;
+  height:1365px;
+  width:100%;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+.maisons_photos {
+  position:relative;
+  background-color:white;
+  height:250px;
+  width:100%;
+  margin-bottom:10px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+.maisons_photos>img {
+  width:300px;
+  height:200px;
+  float:left;
+  margin-top:10px;
+  margin-left:10px;
+}
+.maisons_photos>.maisons_text {
+  width:440px;
+  float:left;
+  margin-left:15px;
+}
+.maisons_photos>.maisons_text:first-letter {
+  font-size:150%;
+}
+.maisons_photos>.maisons_liens {
+  list-style-type:none;
+  float:right;
+  right:50px;
+  bottom:10px;
+  position:absolute;
+}
+.maisons_photos>.maisons_liens>a {
+  text-decoration:none;
+  color:grey;
+}
+.maisons_photos>.maisons_liens>a:hover {
+  color:blue;
+}
+/*Fin maisons.html*/
+/*----statistiques.html----*/
+#blocs_statistiques {
+  position:absolute;
+  top:300px;
+  right:10px;
+  margin-left: auto ;
+  margin-right: auto ;
+  width:780px;
+  height:1110px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+#blocs_statistiques_body {
+  background-color:white;
+  height:1030px;
+  width:100%;
+  padding-top:5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+.statistiques_h3 {
+  text-align:center;
+  font-size:40px;
+}
+#statistiques_description {
+  position:absolute;
+  height:130px;
+  width:100%;
+  margin-bottom:10px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+#statistiques_description>p:first-letter {
+  font-size:150%;
+}
+#statistiques_description>p {
+  font-size:20px;
+  text-align:justify;
+  margin: 0px 30px 0;
+}
+#statistiques_tables {
+  position:absolute;
+  height:755px;
+  width:100%;
+  margin-bottom:10px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  top:290px;
+}
+/*style table vente*/
+#table_vente {
+  float:left;
+  margin-left:20px;
+  margin-top:-13px;
+  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse:collapse;
+}
+#table_vente>caption {
+  font-size:20px;
+  margin-bottom:10px;
+  text-decoration:underline;
+}
+#table_vente td, #table_vente th {
+  font-size:1em;
+  border:1px solid #98bf21;
+  padding:3px 7px 2px 7px;
+  text-align:center;
+}
+#table_vente th 
+{
+  font-size:1.1em;
+  text-align:center;
+  padding-top:5px;
+  padding-bottom:5px;
+  background-color:#A7C942;
+  color:#ffffff;
+}
+#table_vente tr.alt td 
+{
+  color:#000000;
+  background-color:#EAF2D3;
+}
+/*fin style table vente*/
+/*style stat2*/
+#stat2 {
+  float:left;
+  margin-left:10px;
+  margin-top: 20px;
+  width:400px;
+}
+#stat2, #stat2 td, #stat2 th {
+  border:1px solid black;
+  border-collapse:collapse;
+}
+#stat2 th
+{
+  background-color:#7595bd;
+  color:white;
+}
+#stat2 th, #stat2 td {
+  text-align:center;
+}
+#stat2 tr.stat2_color td{
+  color:#000000;
+  background-color:#BACADE;
+}
+#stat2 #cel_2012 {
+  width:120px;
+}
+/*fin style stat2*/
+/*style tab3*/
+#tab3 {
+    width:760px;
+    position:absolute;
+	margin: 560px 0 0 10px;
+	font-size:0.85em;
+	border-width: 2px;
+	border-spacing: 2px;
+	border-style: outset;
+	border-color: #E4AC60;
+	border-collapse: separate;
+	background-color: white;
+}
+#tab3 th, #tab3 td {
+  text-align:center;
+}
+#tab3>caption {
+  font-size:20px;
+  margin-bottom:13px;
+  text-decoration:underline;
+}
+#tab3 tr.tab3_color td {
+  color:#000000;
+  background-color:#FFA773;
+}
+#tab3 th {
+	border-width: 1px;
+	padding: 1px;
+	border-style: inset;
+	border-color: gray;
+	background-color: #FF5F00;
+	color:white;
+}
+#tab3 td {
+	border-width: 1px;
+	padding: 1px;
+	border-style: inset;
+	border-color: gray;
+	background-color: white;
+}
+#tab3 .col_1{
+  width:40px;
+}
+/*fin style table 3*/
+#statistiques_tables>table {
+  margin-bottom:40px;
+}
+/*--Galerie-Photos.html--*/
+#blocs_galerie-photos {
+  position:absolute;
+  top:300px;
+  right:10px;
+  width:780px;
+  height:860px;
+}
+
+#galerie-photos {
+  position:absolute;
+  margin-left: auto ;
+  margin-right: auto ;
+  width:780px;
+  height:790px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#galerie-photos>ul>li {
+  list-style-type:none;
+}
+#galerie-photos ul li a img{
+  width:220px;
+  margin-top:5px;
+  height:150px;
+  float:left;
+  padding:9px;
+  border:2px solid grey;
+  margin-right:18px;
+  margin-left:0px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+#galerie-photos p {
+  font-size:20px;
+  font-weight:bold;
+  padding-left:10px;
+  color:white;
+}
+/*--fin galerie-photos.html--*/
+/*--focus-produit.html--*/
+#blocs_focus-produit {
+  position:absolute;
+  top:300px;
+  right:0px;
+  margin-left: auto ;
+  margin-right: auto ;
+  width:790px;
+  height:1080px;
+}
+#focus-produit {
+  background-color:white;
+  position:absolute;
+  right:0px;
+  margin-left: auto ;
+  margin-right: auto ;
+  width:790px;
+  height:1005px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+#focus-produit h1{
+  padding:0;
+  margin:40px;
+  color:grey;
+}
+#focus-produit h2{
+  padding:10px;
+  margin:0 280px;
+  color:grey;
+}
+#focus-produit p{
+  padding:0;
+  margin:20px;
+}
+#focus-produit>p:first-letter ,
+#interieur>p:first-letter {
+  font-size:150%;
+}
+#focus-produit>p>a {
+  text-decoration:none;
+  color:grey;
+}
+#focus-produit>p>a:hover {
+  color:blue;
+  text-decoration:underline;
+}
+#exterieur ul li img {
+  float:left;
+  width:350px;
+  height:250px;
+  margin:5px;
+  margin-bottom:20px;
+  margin-left:20px;
+  padding:3px;
+  border:2px solid grey;
+}
+#interieur ul li img {
+ float:left;
+ width:220px;
+ height:120px;
+ padding:3px;
+ margin:5px;
+ margin-left:21px;
+ border:2px solid grey;
+ margin-bottom:20px;
+}
+/*--fin focus-produit.html--*/
+/*----contact.html----*/
+#blocs_contact {
+  position:absolute;
+  margin-left: auto ;
+  margin-right: auto ;
+  right:0px;
+  height:710px;
+  width:790px;
+}
+fieldset>ul>li {
+  line-height:30px;
+  color:gray;
+}
+.li_label,
+.contact_checkbox,
+legend {
+  color:gray;
+}
+form,
+#bloc_coordonnees {
+  background-image:url('images/background.jpg');
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  margin-top:10px;
+}
+#btn_sub {
+  margin-left:320px;
+  margin-top:5px;
+}
+#coordonnees>ul>li {
+  width:40%;
+  float:left;
+  color:gray;
+}
+.coordonnees_line {
+  margin-left:100px;
+  color:gray;
+}
+/*--Fin contact.html--*/
+/*--alerte.html--*/
+ #blocs_alerte {
+  position:absolute;
+  top:330px;
+  right:0px;
+  margin-left: auto ;
+  margin-right: auto ;
+  width:790px;
+  height:705px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+#blocs_alerte p{
+  margin:10px 5px;
+  color:gray;
+} 
+#blocs_alerte >p{
+  color:white;
+  }
+#alerte {
+  width: 100%;
+}
+#alerte ul li ul li,
+#alerte ul li ul li ul li {
+  width:50%;
+  float: left;
+}
+#alerte ul li ul li ul {
+  margin-top: 7px;
+}
+#alerte ul li ul li ul li {
+  height: 30px;
+  line-height: 40px;
+  color:gray;
+}
+#alerte ul li ul li.li_label {
+  text-align: right;
+}
+#alerte ul li ul li.li_label label {
+  padding-right: 20px;
+}
+textarea {
+  width: 95%;
+}
+#btn-sub {
+  margin-left:648px;
+}
+#alerte>form>fieldset {
+  width:760px;
+}
+#alerte .btn_radio {
+  width:20%;
+}
+/*--fin alerte.html--*/
+
+/*debut visite*/
+#video {
+   background-color:white;
+    position:absolute;
+  padding:0 10px;
+  margin-top:0;
+  width:97%;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.vid {
+   float:left;
+} 
+/* fin visite*/
